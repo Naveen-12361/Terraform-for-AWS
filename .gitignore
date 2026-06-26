@@ -1,0 +1,26 @@
+# Terraform files
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local variable files
+*.tfvars
+!example.tfvars
+
+# Private keys
+*.pem
+terra-key-*
