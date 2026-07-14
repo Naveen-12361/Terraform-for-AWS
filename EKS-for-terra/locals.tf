@@ -8,3 +8,10 @@ locals {
     intra_subnets = ["10.0.201.0/24", "10.0.202.0/24"]
     env = "dev"
 }
+
+
+
+
+#Locals (local)
+Used for internal values within your Terraform configuration.
+Cannot be changed from outside.
