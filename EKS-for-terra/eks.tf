@@ -14,13 +14,13 @@ module "eks" {
 
   cluster_addons = {
     coredns = {
-      most_recent = true
+      most_recent = true         # It converts service names into IP addresses.
     }
     kube-proxy = {
-      most_recent = true
+      most_recent = true         # Runs on every worker node.
     }
     vpc-cni = {
-      most_recent = true
+      most_recent = true         # Assigns IP addresses to Kubernetes pods.
     }
   }
 
